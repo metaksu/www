@@ -12,5 +12,5 @@
 			<li></li>
 			<li></li>
 		</ul>
-	</body>
+	<body/>
 </html>

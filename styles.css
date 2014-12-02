@@ -1,0 +1,12 @@
+head{
+	font: sans-serif;
+	margin: 10px;
+	background-color: red;
+}
+
+p{
+	margin: 10px;
+	border: solid;
+	display: inline-block;
+	background-color: blue;
+}

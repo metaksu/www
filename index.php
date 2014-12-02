@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+	<title>Vile Studios</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
 <head>
 	<p>
 		Buttholes

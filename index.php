@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<title>Vile Studios</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
 
 <head>
 	<p>
@@ -10,10 +10,17 @@
 	</p>
 </head>
 	<body>
-		<h1>Welcome to the new site!</h1>
-		<ul>
-			<li></li>
-			<li></li>
-		</ul>
+		<div class="header">
+			<p></p>
+		</div>
+		<div id="list">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 	<body/>
 </html>

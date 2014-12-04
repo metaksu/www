@@ -1,10 +1,38 @@
-head{
-	font: sans-serif;
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 14px 10px 14px 10px;
+    text-transform: uppercase;
 }
 
-p{
-	margin: 10px;
-	border: solid;
-	display: inline-block;
-	background-color: blue;
+.jumbotron {
+    height: 500px;
+    background-image: url('http://goo.gl/04j7Nn');
+}
+
+.jumbotron h1 {
+    font-family: 'Shift', sans-serif;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.learn-more {
+    background-color: #f7f7f7;   
+}
+
+.learn-more h3 {
+    font-family: 'Shift', sans-serif;  
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.learn-more a {
+    color: #00b0ff;   
 }

@@ -5,8 +5,19 @@
     padding: 14px 10px 14px 10px;
     text-transform: uppercase;
 }
+.tile li {
+    display: inline;
+    float: left;
+}
+
+.tile a {
+    display: block;
+    padding: 10px;
+    margin-right: 5px;
+}
 
 .jumbotron {
+    margin-top: 50px;
     height: 500px;
     background-image: url('http://goo.gl/04j7Nn');
     background-repeat: no-repeat;
@@ -39,6 +50,14 @@
     color: #00b0ff;   
 }
 
-#login  a{
-    
+#login  li{
+    display: inline;
+    float: left;
+}
+
+#login li a {
+    display: block;
+    padding: 10px;
+    border: 1px solid red;
+    margin-right: 5px;
 }

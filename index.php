@@ -8,10 +8,9 @@
     <div class="nav">
       <div class="container">
         <ul>
-          <li><a href="#">Airbnb logo</a></li>
           <li><a href="#">Browse</a></li>
         </ul>
-        <ul>
+        <ul class="tile">
           <li><a href="#">Sign Up</a></li>
           <li><a href="#">Log In</a></li>
           <li><a href="#">Help</a></li>

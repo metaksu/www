@@ -1,63 +1,65 @@
 .nav a {
-    color: #5a5a5a;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 14px 10px 14px 10px;
-    text-transform: uppercase;
-}
-.tile li {
-    display: inline;
-    float: left;
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
 }
 
-.tile a {
-    display: block;
-    padding: 10px;
-    margin-right: 5px;
+.nav li {
+  display: inline;
 }
 
 .jumbotron {
-    margin-top: 50px;
-    height: 500px;
-    background-image: url('http://goo.gl/04j7Nn');
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image:url('http://goo.gl/04j7Nn');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
 }
 
 .jumbotron h1 {
-    font-family: 'Shift', sans-serif;
-    color: #fff;
-    font-size: 48px;
-    font-weight: bold;
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
 }
 
 .jumbotron p {
-    color: #fff;
-    font-size: 20px;
+  font-size: 20px;
+  color: #fff;
 }
 
 .learn-more {
-    background-color: #f7f7f7;   
+  background-color: #f7f7f7;
 }
 
 .learn-more h3 {
-    font-family: 'Shift', sans-serif;  
-    font-size: 18px;
-    font-weight: bold;
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .learn-more a {
-    color: #00b0ff;   
+  color: #00b0ff;
 }
 
-#login  li{
-    display: inline;
-    float: left;
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
 }
 
-#login li a {
-    display: block;
-    padding: 10px;
-    border: 1px solid red;
-    margin-right: 5px;
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
 }
+
+.neighborhood-guides p {
+       font-size: 15px;
+       margin-bottom: 13px;
+}
+

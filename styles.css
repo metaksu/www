@@ -9,7 +9,8 @@
 .jumbotron {
     height: 500px;
     background-image: url('http://goo.gl/04j7Nn');
-    background-size: 120em;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .jumbotron h1 {

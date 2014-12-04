@@ -9,6 +9,7 @@
 .jumbotron {
     height: 500px;
     background-image: url('http://goo.gl/04j7Nn');
+    background-size: 120em;
 }
 
 .jumbotron h1 {
@@ -35,4 +36,8 @@
 
 .learn-more a {
     color: #00b0ff;   
+}
+
+#login  a{
+    
 }

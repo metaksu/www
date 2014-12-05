@@ -1,0 +1,17 @@
+.nav li{
+  display: inline;
+}
+
+.jumbotron{
+  background-image:url(image/VileStudio.png); 
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.jumbotron .container{
+  position: relative;
+  float: right;
+  font-size: 22px;a
+  text-align: right;
+  margin-top: 340px;
+}

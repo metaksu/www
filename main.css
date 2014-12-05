@@ -2,6 +2,10 @@
   display: inline;
 }
 
+a{
+
+}
+
 .jumbotron{
   background-image:url(image/VileStudio.png); 
   height: 500px;
@@ -14,4 +18,17 @@
   font-size: 22px;
   text-align: right;
   margin-top: 340px;
+}
+
+.jumbotron .container h1{
+  text-shadow:none;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+*{
+  font-family: trebuchet,arial,sans-serif; 
 }

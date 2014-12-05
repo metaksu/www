@@ -15,6 +15,7 @@
 }
 
 .jumbotron{
+	padding: none;
   background-image:url(image/VileStudio.png); 
   height: 500px;
   background-repeat: no-repeat;
@@ -37,3 +38,32 @@ a:hover{
   font-weight: bold;
 }
 
+
+.body {
+	background color:;
+}
+
+#slider {
+	width: 1280px;
+	height: 720px;
+	overflow: hidden;
+}
+
+#slider .slide {
+	display: block;
+	width: 3840px;
+	height: 720px;
+	margin: 0;
+	padding: 0;
+}
+
+#slider .slide{
+	float: left;
+	list-style-type: none;
+	width: 1280px;
+	height: 720px;
+}
+img {
+	width: 1280px;
+	height: 720px;
+}

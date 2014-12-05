@@ -1,17 +1,20 @@
 'use strict';
-var main = function(){
-	$(function(){
+$(function(){
 
 
-		var width = 1280;
-		var animationSpeed = 1000;
-		var pause = 3000;
-		var currentSlide = 1;
-		var $slider = #('#slider');
-		var $slideContainer = $slider.find('.slides');
-		var $slides = $slideContainer.find('.slide');
+	var width = 1280;
+	var animationSpeed = 1000;
+	var pause = 3000;
+	var currentSlide = 1;
+	var $slider = $('#slider');
+	var $slideContainer = $slider.find('.slides');
+	var $slides = $slideContainer.find('.slide');
 
-		setInterval(function() {
+
+	var interval;
+
+	function startSlider() {
+		interval = setInterval(function() {
 			$slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
 				currentSlide++;
 				if (currentSlide === $slides.length); {
@@ -20,8 +23,16 @@ var main = function(){
 				}
 			});
 		}, pause);
+	}
+
+	function stopSlider() {
+		clearInterval(interval);
+	}
 
 
 
-	});
-};
+	$slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
+
+	startSlider();
+
+});

@@ -49,7 +49,7 @@ a:hover{
 	overflow: hidden;
 }
 
-#slider .slide {
+#slider .slides {
 	display: block;
 	width: 3840px;
 	height: 720px;

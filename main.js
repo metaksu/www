@@ -6,7 +6,7 @@ $(function(){
 	var animationSpeed = 1000;
 	var pause = 3000;
 	var currentSlide = 1;
-	var $slider = #('#slider');
+	var $slider = $('#slider');
 	var $slideContainer = $slider.find('.slides');
 	var $slides = $slideContainer.find('.slide');
 
@@ -25,13 +25,13 @@ $(function(){
 		}, pause);
 	}
 
-	function stopSliper() {
+	function stopSlider() {
 		clearInterval(interval);
 	}
 
 
 
-	$slider.on('mouseenter', stopSlider).on('mouse;eave', startSlider);
+	$slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
 
 	startSlider();
 

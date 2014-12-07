@@ -1,0 +1,33 @@
+.button {
+	float: right;
+	background-color: #4B4B4B;
+	border-radius: 100px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.share a {
+	color: #E74C3C;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 2px;
+	text-transform: uppercase;
+}
+
+.active {
+	float: right;
+	background-color: #DE5959;
+	border-radius: 100px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.button:last-child {
+	padding-top: 6px;
+	padding-bottom: 4px;
+}
+
+.button:first-child {
+	padding-top: 6px;
+	padding-bottom: 4px;
+}

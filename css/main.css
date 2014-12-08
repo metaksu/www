@@ -37,5 +37,7 @@ body {
 }
 
 .header {
-	background: url("vilepiglogo_widescreen.png");
+	height: 500px;
+	width: 100%;
+	background-image: url("vilepiglogo_widescreen.png");
 }
